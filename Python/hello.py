@@ -1,5 +1,10 @@
-#ask for username
-name = input ("What is your name?")
-
-#say hello to user 
-print (f"Hello,{name}")
+def main():
+    name = input ("What's your name? ")
+    hello(name)
+    
+    
+def hello(to="world"):
+     print("hello,", to)
+        
+main()
+        
