@@ -16,3 +16,13 @@ for i in range(1, 21):
 
 #print the odds
         print(" i = ", i)
+
+#floating point numbers(numbers with decimal values
+
+my_float = input("enter float: ")
+
+my_float = float(my_float) #convert from string to floating point number
+
+print("Round to 2 decimals : {:.2f}".format(my_float))
+
+
